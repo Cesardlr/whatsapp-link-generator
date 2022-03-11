@@ -14,4 +14,25 @@
     width: 60px;
 }
 
+.examples-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.examples__heading{
+    text-align: center;
+}
+
+.example{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example--img{
+    width: 60%;
+}
+
+
 
