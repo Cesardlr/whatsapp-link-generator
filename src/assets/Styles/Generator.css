@@ -1,0 +1,37 @@
+.generator{
+    width: 80%;
+    padding:20px 100px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 10px;
+}
+
+.generator__input-container{
+    margin-bottom: 30px;
+}
+
+.generator__input{
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    border:1px solid #000;
+    outline-color: #44ff23;
+}
+
+.generator-input-description{
+    color:rgb(159, 159, 159);
+}
+
+.generator__btn{
+    display:block;
+    margin:auto;
+    border:none;
+    outline:none;
+    background: #ABFF9D;
+    padding: 10px 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+}
