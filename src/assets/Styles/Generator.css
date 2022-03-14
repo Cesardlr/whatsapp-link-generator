@@ -1,9 +1,10 @@
 .generator{
     width: 80%;
-    padding:20px 100px;
+    padding:20px 50px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     border-radius: 10px;
     margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .generator__input-container{
@@ -47,7 +48,7 @@
 }
 
 .generator__result--container{
-    width: 40%;
+    width: 80%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +65,10 @@
     background: rgb(238, 238, 238);
 }
 
+.input-container{
+    width: 100%;
+}
+
 .generator__result-btn{
     height:34px;
     outline:none;
@@ -75,4 +80,30 @@
     border:.5px solid rgb(138, 138, 138);
     border-radius: 0px 5px 5px 0px;
     cursor:pointer;
+}
+
+@media screen and (max-width:750px){
+    .generator__result{
+        flex-direction: column;
+    }
+    .input-container{
+        text-align: center;
+    }
+    .generator__result--container{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .generator{
+    width: 90%;
+        padding:20px 30px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .generator{
+    width: 90%;
+        padding:20px 30px;
+    }
 }

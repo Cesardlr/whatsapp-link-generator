@@ -14,7 +14,7 @@ function App() {
 
       <div className="app__header">
         <img src={wappLogo} alt="Whatsapp Logo" className="header__logo" />
-        <h2>WHATSAPP LINK GENERATOR</h2>
+        <h2 className="app__header--heading">WHATSAPP LINK GENERATOR</h2>
       </div>
 
       <Hero />

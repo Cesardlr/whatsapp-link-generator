@@ -46,7 +46,6 @@ function Generator() {
                 className="generator__btn"
                 onClick={() => {
                     setLink(linkGenerator(phone, message))
-                    console.log(link)
                 }}
             >
                 GENERAR LINK
@@ -64,10 +63,11 @@ function Generator() {
                                     onClick={() => { navigator.clipboard.writeText(link) }}
                                 >
                                     Copiar Link
-                                </button></div>
+                                </button>
+                            </div>
                         </div>
 
-                        <div className="generator__result--container">
+                        <div>
                             <QRCode
                                 value={link}
                                 size={150}

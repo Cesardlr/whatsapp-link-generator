@@ -6,6 +6,8 @@ import leftPlane from './../assets/Img/paper-planes-3.png'
 import rightPlane from './../assets/Img/paper-planes-1.png'
 import video from './../assets/Img/video.gif'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 function Hero() {
     return (
         <>
@@ -24,9 +26,9 @@ function Hero() {
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </p>
 
-                    <a href="#generator" className="hero__link">
+                    <AnchorLink href="#generator" className="hero__link">
                         CREAR LINK
-                    </a>
+                    </AnchorLink>
 
                 </div>
 
