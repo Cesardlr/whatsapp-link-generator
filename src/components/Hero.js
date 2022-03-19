@@ -23,7 +23,10 @@ function Hero() {
                     </h1>
 
                     <p className="hero__text">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        <span>Genera un enlace a Whatsapp rapidamente, con un mensaje predefinido y compartelo con tu audiencia en tus redes sociales!</span>
+                        <br/>
+                        <br />
+                        Al dar click en el enlace generado, tus clientes podran enviarte un mensaje de WhatsApp sin tener que añadir tu numero de telefono a su lista de contactos.
                     </p>
 
                     <AnchorLink href="#generator" className="hero__link">

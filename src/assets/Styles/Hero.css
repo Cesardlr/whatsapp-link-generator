@@ -22,6 +22,10 @@
     margin-bottom: 50px;
 }
 
+.hero__text>span{
+    font-weight: 600;
+}
+
 .hero__link {
     background: #ABFF9D;
     padding: 15px;
@@ -51,7 +55,7 @@
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .hero {
         flex-wrap: wrap;
     }
