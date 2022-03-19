@@ -45,6 +45,10 @@ function App() {
 
         </div>
       </div>
+
+      <footer>
+        <p className='footer__text'>Sitio web diseñado y desarrollado por <a target="_blank" href='https://mercurio.company'>Mercurio Agencia Digital</a></p>
+      </footer>
     </div>
   );
 }
